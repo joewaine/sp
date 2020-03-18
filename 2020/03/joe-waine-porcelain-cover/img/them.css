@@ -11189,7 +11189,7 @@
   .article-body .article-content-holder .article-content {
     font-size: 18px;
     line-height: 30px;
-    padding: 10px 0;
+    padding: 10px 0 40px;
   }
   .article-body .article-content-holder .article-content p span {
     font-size: 18px !important;
@@ -12279,8 +12279,6 @@
   }
 
 
-
-
   .gallery-canvas {
     position: relative;
   }
@@ -12351,8 +12349,7 @@
     visibility: hidden;
   }
 
-
-
+  
   @font-face {
     font-family: 'sm-icons';
     src: url('/wp-content/themes/wp-theme-base/assets/fonts/sm-icons.eot');
@@ -12584,6 +12581,8 @@
     content: "\ea09";
   }
 
+
+
   .ad_desktop {
     box-sizing: content-box;
   }
@@ -12669,11 +12668,11 @@
   }
 
 
-/*
+  /*
  * Zergnet styles
  * !important used to override styles Zergnet injects onto page
  */
- .left-col .zergnet-holder {
+.left-col .zergnet-holder {
     margin: 0px 0px 25px 0px;
     border-bottom: 5px solid #f7f7f7;
   }
@@ -12710,3 +12709,6 @@
     margin-top: 7px !important;
   }
 
+
+
+  
